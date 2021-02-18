@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    var a = ["首页","用户"]
+    var as = ["首页","角色","用户"]
+    var asd = as.map((item,index) => {
+        // console.log(item,index)
+       return a.some((it,key)=>{
+            return it === item
+        })
+    })
+    var keys = asd.filter((item,key)=>{
+        
+    })
+    // var asd = as.filter((item,index) => {
+    //     return a.some((it,key) => {
+    //         return it === item
+    //     })
+    // })
+    console.log(asd)
+</script>
